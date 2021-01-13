@@ -10,7 +10,16 @@ package esercizio1;
  * @author User
  */
 public class App {
+
+    final static int limiteGarage = 15;
+
     public static void main(String[] args) {
-        System.out.println("start esercizio uno");
+
+        Veicolo Lista[] = new Veicolo[limiteGarage];
+
+        Auto mia = new Auto(5, 0, 1000, 2018, "bmw", Auto.Alimentazione.Benzina);
+        Lista[0] = mia;
+
+        System.out.println();
     }
 }
