@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package esercizio1;
+package esercizio2;
 
 /**
  *
@@ -11,6 +11,6 @@ package esercizio1;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("start esercizio uno");
+        
     }
 }
